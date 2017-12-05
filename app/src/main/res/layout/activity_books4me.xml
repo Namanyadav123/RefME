@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_books3coe"
+    android:orientation="vertical"
+    android:background="@drawable/l7"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="io.app.hasura.imad.namanyadav123.mydtu.Books3coe">
+
+    <com.cuboid.cuboidcirclebutton.CuboidButton
+        android:id="@+id/books4me1"
+        app:cub_border_radius="4dp"
+        app:cub_color="#e44d87"
+        android:gravity="clip_horizontal"
+        android:text="Fluid Mechanics"
+        app:cub_hover_color="#6918c6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:cub_border_color="#ec0f6b"
+        tools:ignore="HardcodedText,ObsoleteLayoutParam,RtlHardcoded"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp" />
+
+    <com.cuboid.cuboidcirclebutton.CuboidButton
+        android:id="@+id/books4me3"
+        app:cub_border_radius="4dp"
+        app:cub_color="#e44d87"
+        android:gravity="clip_horizontal"
+        android:text="Manufacturing Machines"
+        app:cub_hover_color="#c61818"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:cub_border_color="#ec0f6b"
+        tools:ignore="HardcodedText,ObsoleteLayoutParam,RtlHardcoded"
+        android:layout_marginRight="17dp"
+        android:layout_marginEnd="17dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <com.cuboid.cuboidcirclebutton.CuboidButton
+        android:id="@+id/books4me2"
+        app:cub_border_radius="4dp"
+        app:cub_color="#e44d87"
+        android:gravity="clip_horizontal"
+        android:text="Kinematics Of Machines"
+        app:cub_hover_color="#c61818"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:cub_border_color="#ec0f6b"
+        tools:ignore="HardcodedText,ObsoleteLayoutParam,RtlHardcoded"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <com.cuboid.cuboidcirclebutton.CuboidButton
+        android:id="@+id/books4me5"
+        app:cub_border_radius="4dp"
+        app:cub_color="#e44d87"
+        android:gravity="clip_horizontal"
+        android:text="Thermal Engineering-II"
+        app:cub_hover_color="#6918c6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:cub_border_color="#ec0f6b"
+        tools:ignore="HardcodedText,ObsoleteLayoutParam,RtlHardcoded"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_alignBaseline="@+id/books4me4"
+        android:layout_alignBottom="@+id/books4me4"
+        android:layout_toRightOf="@+id/books4me4"
+        android:layout_toEndOf="@+id/books4me4" />
+
+    <com.cuboid.cuboidcirclebutton.CuboidButton
+        android:id="@+id/books4me6"
+        app:cub_border_radius="4dp"
+        app:cub_color="#e44d87"
+        android:gravity="clip_horizontal"
+        android:text="Fundamentals Of Management"
+        app:cub_hover_color="#6918c6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:cub_border_color="#ec0f6b"
+        tools:ignore="HardcodedText,ObsoleteLayoutParam,RtlHardcoded"
+        android:layout_marginTop="26dp"
+        android:layout_below="@+id/books4me4"
+        android:layout_alignLeft="@+id/books4me2"
+        android:layout_alignStart="@+id/books4me2" />
+
+    <com.cuboid.cuboidcirclebutton.CuboidButton
+        android:id="@+id/books4me4"
+        app:cub_border_radius="4dp"
+        app:cub_color="#e44d87"
+        android:gravity="clip_horizontal"
+        android:text="Manufacturing Technology-I"
+        app:cub_hover_color="#6918c6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:cub_border_color="#ec0f6b"
+        tools:ignore="HardcodedText,ObsoleteLayoutParam,RtlHardcoded"
+        android:layout_marginLeft="47dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/books4me1"
+        android:layout_alignLeft="@+id/books4me1"
+        android:layout_alignStart="@+id/books4me1" />
+
+</RelativeLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="UseCompoundDrawables">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="90dp"
+        android:src="@drawable/download"
+        android:id="@+id/physics1"
+        android:layout_height="100dp"
+        tools:ignore="ContentDescription" />
+    <TextView
+        android:layout_width="70dp"
+        android:text="PhysicsArthur Beiser"
+        android:paddingLeft="25dp"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+  </LinearLayout>
+    <LinearLayout
+        android:paddingLeft="20dp"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="90dp"
+        android:src="@drawable/download"
+        android:id="@+id/physics2"
+        android:layout_height="100dp"
+        tools:ignore="ContentDescription" />
+    <TextView
+        android:layout_width="90dp"
+        android:text="Intro to Electrodynamics"
+        android:paddingLeft="15dp"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+    </LinearLayout>
+    <LinearLayout
+        android:paddingLeft="20dp"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="90dp"
+            android:src="@drawable/download"
+            android:id="@+id/physics3"
+            android:layout_height="100dp"
+            tools:ignore="ContentDescription" />
+        <TextView
+            android:layout_width="80dp"
+            android:text="Intro to fiber optics"
+            android:paddingLeft="15dp"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+    </LinearLayout>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:paddingTop="20dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="90dp"
+            android:src="@drawable/download"
+            android:id="@+id/physics4"
+            android:layout_height="100dp"
+            tools:ignore="ContentDescription" />
+        <TextView
+            android:layout_width="80dp"
+            android:text="Physics Of semiconductor devices"
+            android:paddingLeft="15dp"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingLeft="20dp"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="90dp"
+            android:src="@drawable/download"
+            android:id="@+id/physics5"
+            android:layout_height="100dp"
+            tools:ignore="ContentDescription" />
+        <TextView
+            android:layout_width="80dp"
+            android:text="Physics of vibrations and waves"
+            android:paddingLeft="15dp"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+    </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:id="@+id/app_bar_layput">
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:contentScrim="?attr/colorPrimary"
+            app:expandedTitleTextAppearance="@android:color/transparent"
+            android:fitsSystemWindows="true"
+            android:layout_height="350dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/f1"
+                app:layout_collapseMode="parallax"
+                android:contentDescription="REFME DTU MESS"
+                android:layout_height="350dp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="312dp"
+                android:layout_marginLeft="128dp"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                android:text="DTU MESS"
+                android:layout_height="wrap_content"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar6"
+                android:layout_width="match_parent"
+                app:popupTheme="@style/Base.ThemeOverlay.AppCompat.Light"
+                android:title="DTU BREAKFAST"
+                app:layout_collapseMode="pin"
+                android:layout_height="?attr/actionBarSize"
+                tools:ignore="HardcodedText">
+
+            </android.support.v7.widget.Toolbar>
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:clipToPadding="false"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_marginBottom="16dp"
+            app:cardElevation="5dp"
+            app:cardUseCompatPadding="true"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:background="#4ec6e7"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="DTU BREAKFAST"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:padding="12dp"
+                        android:layout_marginTop="12dp"
+                        tools:ignore="HardcodedText"
+                        android:id="@+id/textView1" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:padding="12dp"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/ic_breakfast"
+                            android:contentDescription="@string/app_name"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:text="Dosa-Sambhar,Omlette,Toast,Tea,Milk"
+                            android:textColor="#000000"
+                            android:textStyle="bold"
+                            android:paddingLeft="12dp"
+                            android:paddingRight="12dp"
+                            android:paddingBottom="12dp"
+                            android:layout_width="0dp"
+                            android:layout_weight="9"
+                            android:layout_height= "wrap_content"
+                            android:textSize="20sp"
+                            android:layout_gravity="center_vertical"
+                            tools:ignore="HardcodedText" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="DTU LUNCH"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:padding="12dp"
+                        android:layout_marginTop="12dp"
+                        tools:ignore="HardcodedText"
+                        android:id="@+id/textView2" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:padding="12dp"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/ic_lunch"
+                            android:contentDescription="@string/app_name"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:text="Rice,Rajma,Sabji,Dahi-Bhale,Roti,Raita"
+                            android:textColor="#000000"
+                            android:textStyle="bold"
+                            android:paddingLeft="12dp"
+                            android:paddingRight="12dp"
+                            android:paddingBottom="12dp"
+                            android:layout_width="0dp"
+                            android:layout_weight="9"
+                            android:layout_height= "wrap_content"
+                            android:textSize="20sp"
+                            android:layout_gravity="center_vertical"
+                            tools:ignore="HardcodedText" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="DTU SNACKS"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:padding="12dp"
+                        android:layout_marginTop="12dp"
+                        tools:ignore="HardcodedText"
+                        android:id="@+id/textView" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:padding="12dp"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/ic_cup"
+                            android:contentDescription="@string/app_name"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:text="NO MESS"
+                            android:textColor="#000000"
+                            android:textStyle="bold"
+                            android:paddingLeft="12dp"
+                            android:paddingRight="12dp"
+                            android:paddingBottom="12dp"
+                            android:layout_width="0dp"
+                            android:layout_weight="9"
+                            android:layout_height= "wrap_content"
+                            android:textSize="20sp"
+                            android:layout_gravity="center_vertical"
+                            tools:ignore="HardcodedText" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="DTU DINNER"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:padding="12dp"
+                        android:layout_marginTop="12dp"
+                        tools:ignore="HardcodedText"
+                        android:id="@+id/textView3" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:padding="12dp"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/ic_mess"
+                            android:contentDescription="@string/app_name"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:text="Night MESS"
+                            android:textColor="#000000"
+                            android:textStyle="bold"
+                            android:paddingLeft="12dp"
+                            android:paddingRight="12dp"
+                            android:paddingBottom="12dp"
+                            android:layout_width="0dp"
+                            android:layout_weight="9"
+                            android:layout_height= "wrap_content"
+                            android:textSize="20sp"
+                            android:layout_gravity="center_vertical"
+                            tools:ignore="HardcodedText" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </android.support.v4.widget.NestedScrollView>
+
+
+    <android.support.design.widget.FloatingActionButton
+        app:elevation="6dp"
+        app:pressedTranslationZ="12dp"
+        app:layout_anchor="@id/app_bar_layput"
+        app:layout_anchorGravity="bottom|right|end"
+        android:layout_width="wrap_content"
+        android:src="@drawable/ic_food"
+        android:layout_height="wrap_content"
+        app:backgroundTint="#128bac" />
+
+</android.support.design.widget.CoordinatorLayout>

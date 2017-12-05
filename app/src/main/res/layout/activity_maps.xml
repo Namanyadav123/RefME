@@ -1,0 +1,56 @@
+ <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="io.app.hasura.imad.namanyadav123.mydtu.MapsActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text=" WELCOME TO REFME DTU MAPS"
+            android:background="#42a2bc"
+            android:paddingLeft="90dp"
+            android:textStyle="bold"
+            android:textColor="#082231"
+            android:layout_height="20dp"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColorHighlight="#000000"
+                android:layout_weight="4"
+                android:textColor="@android:color/holo_blue_dark"
+                android:hint="Search Any Location"
+                android:id="@+id/etDestination"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:text="Search"
+                android:background="#082231"
+                android:textColor="#bc779a"
+                android:layout_width="wrap_content"
+                android:layout_weight="0.37"
+                android:onClick="onMapSearchDestination"
+                android:layout_height="wrap_content"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+
+
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+

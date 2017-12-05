@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="UseCompoundDrawables">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="ScrollViewSize,UseCompoundDrawables">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/downloads"
+                    android:id="@+id/ce4papers1"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="100dp"
+                    android:text="Design Of Structural Elements 2010 May Endsem"
+                    android:paddingLeft="25dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                tools:ignore="RtlHardcoded,RtlSymmetry">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/downloads"
+                    android:id="@+id/ce4papers2"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="90dp"
+                    android:text="Electrical Technology 2010 May Endsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                tools:ignore="RtlHardcoded,RtlSymmetry">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/downloads"
+                    android:id="@+id/ce4papers3"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="Fluid Mechanics 2012 May Endsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:paddingTop="20dp"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/downloads"
+                    android:id="@+id/ce4papers4"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="84dp"
+                    android:text="Engineering Geology 2012 May Endsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                tools:ignore="RtlHardcoded,RtlSymmetry">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/downloads"
+                    android:id="@+id/ce4papers5"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="90dp"
+                    android:text="Fundamentals Of Mechanical Engineering 2012 May Endsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                tools:ignore="RtlHardcoded,RtlSymmetry">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/downloads"
+                    android:id="@+id/ce4papers6"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="Hydraulics And Hydraulic Machines 2017 May Endsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:paddingTop="20dp"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/downloads"
+                    android:id="@+id/ce4papers7"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="Soil Mechnics 2010 May Endsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                tools:ignore="RtlHardcoded,RtlSymmetry">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/downloads"
+                    android:id="@+id/ce4papers8"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="Soil Mechanics 2017 May Endsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                tools:ignore="RtlHardcoded,RtlSymmetry">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/downloads"
+                    android:id="@+id/ce4papers9"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="Structural Analysis 2012 May Endsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:paddingTop="20dp"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/downloads"
+                    android:id="@+id/ce4papers10"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="Surveying-I  2010 May Endsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                tools:ignore="RtlHardcoded,RtlSymmetry">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/downloads"
+                    android:id="@+id/ce4papers11"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="Surveying-II 2012 May Endsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                tools:ignore="RtlHardcoded,RtlSymmetry">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/downloads"
+                    android:id="@+id/ce4papers12"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="125dp"
+                    android:text="Fundamentals Of Management Papers"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:paddingTop="17dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:text="Note: All The Students Are Hereby Requested To Visit The Section Of Their Related Branches For Required Extra Information"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+
+
+</ScrollView>

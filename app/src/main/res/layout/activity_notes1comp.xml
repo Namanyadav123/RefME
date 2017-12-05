@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="UseCompoundDrawables">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UseCompoundDrawables">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/download"
+                    android:id="@+id/comp1notes"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="70dp"
+                    android:text="C-Notes1"
+                    android:paddingLeft="25dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/download"
+                    android:id="@+id/comp2notes"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="90dp"
+                    android:text="C-Notes2"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/download"
+                    android:id="@+id/comp3notes"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="C-Notes3"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:paddingTop="20dp"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/download"
+                    android:id="@+id/comp4notes"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="C-Notes4"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/download"
+                    android:id="@+id/comp5notes"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="C-Notes5"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/download"
+                    android:id="@+id/comp6notes"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="C-Notes6"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:paddingTop="20dp"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/download"
+                    android:id="@+id/comp7notes"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="C-Notes7"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/download"
+                    android:id="@+id/comp8notes"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="C-Notes8"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

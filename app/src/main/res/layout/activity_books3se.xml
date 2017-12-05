@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_books3coe"
+    android:background="@drawable/l7"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="io.app.hasura.imad.namanyadav123.mydtu.Books3coe">
+
+    <com.cuboid.cuboidcirclebutton.CuboidButton
+        android:id="@+id/books3se1"
+        app:cub_border_radius="4dp"
+        app:cub_color="#ad6eae"
+        android:gravity="clip_horizontal"
+        android:text="Data Structures"
+        app:cub_hover_color="#6918c6"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        app:cub_border_color="#6d0d7c"
+        tools:ignore="HardcodedText,ObsoleteLayoutParam,RtlHardcoded"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp" />
+
+    <com.cuboid.cuboidcirclebutton.CuboidButton
+        android:id="@+id/books3se3"
+        app:cub_border_radius="4dp"
+        app:cub_color="#ad6eae"
+        android:gravity="clip_horizontal"
+        android:text="Web Technology"
+        app:cub_hover_color="#c61818"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        app:cub_border_color="#6d0d7c"
+        tools:ignore="HardcodedText,ObsoleteLayoutParam,RtlHardcoded"
+        android:layout_marginRight="17dp"
+        android:layout_marginEnd="17dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <com.cuboid.cuboidcirclebutton.CuboidButton
+        android:id="@+id/books3se2"
+        app:cub_border_radius="4dp"
+        app:cub_color="#ad6eae"
+        android:gravity="clip_horizontal"
+        android:text="Engineering Analysis And Design"
+        app:cub_hover_color="#c61818"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        app:cub_border_color="#6d0d7c"
+        tools:ignore="HardcodedText,ObsoleteLayoutParam,RtlHardcoded"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <com.cuboid.cuboidcirclebutton.CuboidButton
+        android:id="@+id/books3se5"
+        app:cub_border_radius="4dp"
+        app:cub_color="#ad6eae"
+        android:gravity="clip_horizontal"
+        android:text="OOPS"
+        app:cub_hover_color="#6918c6"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        app:cub_border_color="#6d0d7c"
+        tools:ignore="HardcodedText,ObsoleteLayoutParam,RtlHardcoded"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_alignBaseline="@+id/books3se4"
+        android:layout_alignBottom="@+id/books3se4"
+        android:layout_toRightOf="@+id/books3se4"
+        android:layout_toEndOf="@+id/books3se4" />
+    <com.cuboid.cuboidcirclebutton.CuboidButton
+        android:id="@+id/books3se6"
+        app:cub_border_radius="4dp"
+        app:cub_color="#ad6eae"
+        android:gravity="clip_horizontal"
+        android:text="Engineering Economics           Part-I(Seema Singh)"
+        app:cub_hover_color="#6918c6"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        app:cub_border_color="#6d0d7c"
+        tools:ignore="HardcodedText,ObsoleteLayoutParam,RtlHardcoded"
+        android:layout_marginTop="26dp"
+        android:layout_below="@+id/books3se4"
+        android:layout_toLeftOf="@+id/books3se2"
+        android:layout_toStartOf="@+id/books3se2"
+        android:layout_marginRight="11dp"
+        android:layout_marginEnd="11dp" />
+    <com.cuboid.cuboidcirclebutton.CuboidButton
+        android:id="@+id/books3se7"
+        app:cub_border_radius="4dp"
+        app:cub_color="#ad6eae"
+        android:gravity="clip_horizontal"
+        android:text="Engineering Economics           Part-II(Seema Singh)"
+        app:cub_hover_color="#6918c6"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        app:cub_border_color="#6d0d7c"
+        tools:ignore="HardcodedText,ObsoleteLayoutParam,RtlHardcoded"
+        android:layout_alignBaseline="@+id/books3se6"
+        android:layout_alignBottom="@+id/books3se6"
+        android:layout_alignLeft="@+id/books3se3"
+        android:layout_alignStart="@+id/books3se3" />
+
+    <com.cuboid.cuboidcirclebutton.CuboidButton
+        android:id="@+id/books3se4"
+        app:cub_border_radius="4dp"
+        app:cub_color="#ad6eae"
+        android:gravity="clip_horizontal"
+        android:text="Analog Electronics"
+        app:cub_hover_color="#6918c6"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        app:cub_border_color="#6d0d7c"
+        tools:ignore="HardcodedText,ObsoleteLayoutParam,RtlHardcoded"
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="26dp"
+        android:layout_below="@+id/books3se1"
+        android:layout_alignLeft="@+id/books3se6"
+        android:layout_alignStart="@+id/books3se6" />
+
+
+</RelativeLayout>

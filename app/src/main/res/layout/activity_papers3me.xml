@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="UseCompoundDrawables">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UseCompoundDrawables">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/downloads"
+                    android:id="@+id/me3papers1"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="100dp"
+                    android:text="Engineering Materials and Metallurgy 2014 Nov Endsem"
+                    android:paddingLeft="25dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/downloads"
+                    android:id="@+id/me3papers2"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="90dp"
+                    android:text="Engineering Mechanics 2013 Sep Midsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/downloads"
+                    android:id="@+id/me3papers3"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="Mechanics 2005 Sep Midsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:paddingTop="20dp"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/downloads"
+                    android:id="@+id/me3papers4"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="Mechanics 2010 Sep Midsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/downloads"
+                    android:id="@+id/me3papers5"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="86dp"
+                    android:text="Numerical Techniques 2013 Sep Midsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/downloads"
+                    android:id="@+id/me3papers6"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="Numerical Techniques 2014 Nov Endsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:paddingTop="20dp"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/downloads"
+                    android:id="@+id/me3papers7"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="85dp"
+                    android:text="Quantitative Techniques 2014 Sep Midsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/downloads"
+                    android:id="@+id/me3papers8"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="Thermal Engineering 2011 Sep Midsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/downloads"
+                    android:id="@+id/me3papers9"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="Thermal Engineering 2014 Sep Midsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:paddingTop="20dp"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/downloads"
+                    android:id="@+id/me3papers10"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="Thermal Engineering 2015 Sep Midsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/downloads"
+                    android:id="@+id/me3papers11"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="90dp"
+                    android:text="Engineering Materials And Metallurgy 2011 Nov Endsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:paddingTop="20dp"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/downloads"
+                    android:id="@+id/me3papers13"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="Engineering Economics Papers"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:paddingTop="17dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:text="Note: All The Students Are Hereby Requested To Visit The Section Of Their Related Branches For Required Extra Information"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/l7"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.cuboid.cuboidcirclebutton.CuboidButton
+        android:id="@+id/books4coe1"
+        app:cub_border_radius="4dp"
+        app:cub_color="#e44d87"
+        android:gravity="clip_horizontal"
+        android:text="Algo Design And Analysis"
+        app:cub_hover_color="#6918c6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:cub_border_color="#ec0f6b"
+        tools:ignore="HardcodedText,ObsoleteLayoutParam,RtlHardcoded"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp" />
+
+    <com.cuboid.cuboidcirclebutton.CuboidButton
+        android:id="@+id/books4coe3"
+        app:cub_border_radius="4dp"
+        app:cub_color="#e44d87"
+        android:gravity="clip_horizontal"
+        android:text="DBMS"
+        app:cub_hover_color="#c61818"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:cub_border_color="#ec0f6b"
+        tools:ignore="HardcodedText,ObsoleteLayoutParam,RtlHardcoded"
+        android:layout_marginRight="17dp"
+        android:layout_marginEnd="17dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <com.cuboid.cuboidcirclebutton.CuboidButton
+        android:id="@+id/books4coe2"
+        app:cub_border_radius="4dp"
+        app:cub_color="#e44d87"
+        android:gravity="clip_horizontal"
+        android:text="Comp. Organization And Architecturec"
+        app:cub_hover_color="#c61818"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:cub_border_color="#ec0f6b"
+        tools:ignore="HardcodedText,ObsoleteLayoutParam,RtlHardcoded"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <com.cuboid.cuboidcirclebutton.CuboidButton
+        android:id="@+id/books4coe5"
+        app:cub_border_radius="4dp"
+        app:cub_color="#e44d87"
+        android:gravity="clip_horizontal"
+        android:text="OS Design"
+        app:cub_hover_color="#6918c6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:cub_border_color="#ec0f6b"
+        tools:ignore="HardcodedText,ObsoleteLayoutParam,RtlHardcoded"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_alignBaseline="@+id/books4coe4"
+        android:layout_alignBottom="@+id/books4coe4"
+        android:layout_toRightOf="@+id/books4coe4"
+        android:layout_toEndOf="@+id/books4coe4" />
+
+    <com.cuboid.cuboidcirclebutton.CuboidButton
+        android:id="@+id/books4coe6"
+        app:cub_border_radius="4dp"
+        app:cub_color="#e44d87"
+        android:gravity="clip_horizontal"
+        android:text="Fundamentals Of Management"
+        app:cub_hover_color="#6918c6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:cub_border_color="#ec0f6b"
+        tools:ignore="HardcodedText,ObsoleteLayoutParam,RtlHardcoded"
+        android:layout_marginTop="26dp"
+        android:layout_below="@+id/books4coe4"
+        android:layout_alignLeft="@+id/books4coe2"
+        android:layout_alignStart="@+id/books4coe2" />
+
+    <com.cuboid.cuboidcirclebutton.CuboidButton
+        android:id="@+id/books4coe4"
+        app:cub_border_radius="4dp"
+        app:cub_color="#e44d87"
+        android:gravity="clip_horizontal"
+        android:text="Digital Electroics"
+        app:cub_hover_color="#6918c6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:cub_border_color="#ec0f6b"
+        tools:ignore="HardcodedText,ObsoleteLayoutParam,RtlHardcoded"
+        android:layout_marginLeft="49dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="26dp"
+        android:layout_below="@+id/books4coe1"
+        android:layout_alignLeft="@+id/books4coe1"
+        android:layout_alignStart="@+id/books4coe1" />
+
+</RelativeLayout>

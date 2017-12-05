@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="ScrollViewSize">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/books2"
+            android:background="@drawable/n4"
+            android:layout_height="220dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="VISIT BOOKS SECTION"
+                android:background="#100f0e"
+                android:textColor="#ffffff"
+                android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/button4"
+                tools:ignore="HardcodedText" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+<TextView
+    android:layout_width="match_parent"
+    android:id="@+id/notes2"
+    android:background="@drawable/n7"
+    android:layout_height="220dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="VISIT NOTES SECTION"
+            android:background="#100f0e"
+            android:textColor="#FFFFFF"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="66dp"
+            tools:ignore="HardcodedText" />
+</RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/ques2"
+            android:background="@drawable/n5"
+            android:layout_height="220dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="VISIT PAPERS SECTION"
+            android:background="#000000"
+            android:textColor="#FFFFFF"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            tools:ignore="HardcodedText" />
+        </RelativeLayout>
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="UseCompoundDrawables">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UseCompoundDrawables">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/download"
+                    android:id="@+id/bmepapers1"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="70dp"
+                    android:text="2016 Nov Endsem"
+                    android:paddingLeft="25dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/download"
+                    android:id="@+id/bmepapers2"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="90dp"
+                    android:text="2010 Nov Endsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/download"
+                    android:id="@+id/bmepapers3"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="2010 Sep Midsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:paddingTop="20dp"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/download"
+                    android:id="@+id/bmepapers4"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="2011 Mar Midsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/download"
+                    android:id="@+id/bmepapers5"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="2011 Nov Endsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/download"
+                    android:id="@+id/bmepapers6"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="2012 Mar Midsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:paddingTop="20dp"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/download"
+                    android:id="@+id/bmepapers7"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="2012 May Endsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/download"
+                    android:id="@+id/bmepapers8"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="2013 Sep Midsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/download"
+                    android:id="@+id/bmepapers9"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="2015 Mar Midsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:paddingTop="20dp"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/download"
+                    android:id="@+id/bmepapers10"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="2015 May Endsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/download"
+                    android:id="@+id/bmepapers11"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="2015 Nov Endsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/download"
+                    android:id="@+id/bmepapers12"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="2016 Nov Endsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:paddingTop="20dp"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/download"
+                    android:id="@+id/bmepapers13"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="2016 Sep Midsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/download"
+                    android:id="@+id/bmepapers14"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="2017 Mar Midsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/download"
+                    android:id="@+id/bmepapers15"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="2017 May Endsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

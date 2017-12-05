@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="UseCompoundDrawables">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UseCompoundDrawables">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/downloads"
+                    android:id="@+id/coe4papers1"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="100dp"
+                    android:text="Adv Comp. Arch. 2017 May Endsem"
+                    android:paddingLeft="25dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/downloads"
+                    android:id="@+id/coe4papers2"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="90dp"
+                    android:text="Algo Design and Analysis 2017 May Endsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/downloads"
+                    android:id="@+id/coe4papers3"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="85dp"
+                    android:text="Algo Design and Analysis 2017 Mar Midsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:paddingTop="20dp"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/downloads"
+                    android:id="@+id/coe4papers4"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="Algo Design and Analysis 2016 May Endsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/downloads"
+                    android:id="@+id/coe4papers5"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="Compiler Design 2017 May Endsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:paddingTop="20dp"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/downloads"
+                    android:id="@+id/coe4papers6"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="Comp. Org. And Arch. 2017 Mar Midsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/downloads"
+                    android:id="@+id/coe4papers7"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="Comp.  Org. And Arch. 2017 May Endsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/downloads"
+                    android:id="@+id/coe4papers8"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="Computer System Org. 2016 May Endsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:paddingTop="20dp"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/downloads"
+                    android:id="@+id/coe4papers9"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="DBMS 2016 Mar Midsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/downloads"
+                    android:id="@+id/coe4papers10"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="DBMS 2016 May Endsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/downloads"
+                    android:id="@+id/coe4papers11"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="DBMS 2017 May Endsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:paddingTop="20dp"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/downloads"
+                    android:id="@+id/coe4papers12"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="DBMS 2017 Mar Midsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/downloads"
+                    android:id="@+id/coe4papers13"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="Digital Electronics 2017 Mar Midsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/downloads"
+                    android:id="@+id/coe4papers14"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="Digital Electronics 2017 May Endsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:paddingTop="20dp"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/downloads"
+                    android:id="@+id/coe4papers15"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="Info And Network Sec. 2017 May Endsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/downloads"
+                    android:id="@+id/coe4papers16"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="Mobile Computing 2017 May Endsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/downloads"
+                    android:id="@+id/coe4papers17"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="OS Design 2016 May Endsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:paddingTop="20dp"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/downloads"
+                    android:id="@+id/coe4papers18"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="OS Design 2017 Mar Midsem"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/downloads"
+                    android:id="@+id/coe4papers19"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="80dp"
+                    android:text="OS Design 2017 May Endsem "
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:src="@drawable/downloads"
+                    android:id="@+id/coe4papers20"
+                    android:layout_height="100dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="125dp"
+                    android:text="Fundamentals Of Management Papers"
+                    android:paddingLeft="15dp"
+                    android:layout_height="wrap_content"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:paddingTop="17dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:text="Note: All The Students Are Hereby Requested To Visit The Section Of Their Related Branches For Required Extra Information"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+</ScrollView>

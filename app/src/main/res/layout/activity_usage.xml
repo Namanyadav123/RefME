@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_usage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@drawable/fill5"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="io.app.hasura.imad.namanyadav123.mydtu.Usage">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:text="To get the path between two different locations follow these Simple Steps:-"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:text="Follow"
+        android:layout_height="wrap_content"
+        android:textColor="#b77d8a"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:text="*  First Let the Map Load And Then Zoom In To Get Into The Area Of Dtu.Tap The Screen To Place The Green Marker At Origin Position And Then Tap The Destination Position To Place The Red Marker.Wait For Sometime And then You Will See A Red Path"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:text="*  The Search Bar Above Takes You To The Particular Area In Which You Want To Search The Path"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:text="*  Before Using Refme DTU Maps,Turn On The Mobile Data/Wifi So That The App Doesn't Crash."
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:text="*  This Map Will Show The Path From Road To Road."
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
+</ScrollView>

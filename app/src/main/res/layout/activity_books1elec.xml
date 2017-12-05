@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="UseCompoundDrawables">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="90dp"
+        android:src="@drawable/download"
+        android:id="@+id/elec1"
+        android:layout_height="100dp"
+        tools:ignore="ContentDescription" />
+    <TextView
+        android:layout_width="70dp"
+        android:text="Schaums-Circuit Analysis"
+        android:paddingLeft="25dp"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+  </LinearLayout>
+    <LinearLayout
+        android:paddingLeft="20dp"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="90dp"
+        android:src="@drawable/download"
+        android:id="@+id/elec2"
+        android:layout_height="100dp"
+        tools:ignore="ContentDescription" />
+    <TextView
+        android:layout_width="90dp"
+        android:text="Schaums Basic Electricity"
+        android:paddingLeft="15dp"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+    </LinearLayout>
+    <LinearLayout
+        android:paddingLeft="20dp"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="90dp"
+            android:src="@drawable/download"
+            android:id="@+id/elec3"
+            android:layout_height="100dp"
+            tools:ignore="ContentDescription" />
+        <TextView
+            android:layout_width="80dp"
+            android:text="Schaums-Electric Circuits"
+            android:paddingLeft="15dp"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+    </LinearLayout>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:paddingTop="20dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="90dp"
+            android:src="@drawable/download"
+            android:id="@+id/elec4"
+            android:layout_height="100dp"
+            tools:ignore="ContentDescription" />
+        <TextView
+            android:layout_width="80dp"
+            android:text="Basic EE-C L Wadhwa"
+            android:paddingLeft="15dp"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingLeft="20dp"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="90dp"
+            android:src="@drawable/download"
+            android:id="@+id/elec5"
+            android:layout_height="100dp"
+            tools:ignore="ContentDescription" />
+        <TextView
+            android:layout_width="80dp"
+            android:text="Eng Electronic"
+            android:paddingLeft="15dp"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+    </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>

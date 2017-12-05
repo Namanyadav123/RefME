@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:title="About DTU"
+
+        android:id="@+id/dtu">
+    </item>
+    <item android:title="About Developer"
+        android:id="@+id/dtu2">
+    </item>
+    <item android:title="Contact Us"
+        android:id="@+id/dtu3">
+    </item>
+</menu>

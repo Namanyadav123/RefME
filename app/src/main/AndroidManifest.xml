@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="io.app.hasura.imad.namanyadav123.mydtu">
+
+    <uses-permission android:name="io.app.hasura.imad.namanyadav123.mydtu.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    <permission
+        android:name="io.app.hasura.imad.namanyadav123.mydtu.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/apps"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".Monday"
+            android:label="Monday Mess"/>
+        <activity
+            android:name=".Tuesday"
+            android:label="Tuesday Mess" />
+        <activity
+            android:name=".Wednesday"
+            android:label="Wednesday Mess" />
+        <activity
+            android:name=".Thursday"
+            android:label="Thursday Mess" />
+        <activity
+            android:name=".Friday"
+            android:label="Friday Mess" />
+        <activity
+            android:name=".Saturday"
+            android:label="Saturday Mess" />
+        <activity
+            android:name=".Sunday"
+            android:label="Sunday Mess" />
+        <activity
+            android:name=".HostelBCH"
+            android:label="     RefMe DTU MESS"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".HostelGirlsMonday"
+            android:label="      RefMe DTU MESS"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".HostelHJBMonday"
+            android:label="      RefMe DTU MESS"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name=".HostelBCHTues"
+            android:label="      RefMe DTU MESS"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".HostelGirlsTues"
+            android:label="      RefMe DTU MESS"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".HostelHJBTues"
+            android:label="      RefMe DTU MESS"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".HostelBCHWed"
+            android:label="      RefMe DTU MESS"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".HostelGirlsWed"
+            android:label="      RefMe DTU MESS"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".HostelHJBWed"
+            android:label="      RefMe DTU MESS"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".HostelBCHThurs"
+            android:label="      RefMe DTU MESS"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".HostelGirlsThurs"
+            android:label="      RefMe DTU MESS"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".HostelHJBThurs"
+            android:label="      RefMe DTU MESS"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".HostelBCHFri"
+            android:label="      RefMe DTU MESS"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".HostelGirlsFri"
+            android:label="      RefMe DTU MESS"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".HostelHJBFri"
+            android:label="      RefMe DTU MESS"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".HostelBCHSat"
+            android:label="      RefMe DTU MESS"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".HostelBCHSun"
+            android:label="      RefMe DTU MESS"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".HostelGirlsSat"
+            android:label="      RefMe DTU MESS"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".HostelGirlsSun"
+            android:label="      RefMe DTU MESS"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".HostelHJBSat"
+            android:label="      RefMe DTU MESS"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".HostelHJBSun"
+            android:label="      RefMe DTU MESS"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".FirstSem"
+            android:label="Group-A" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="RefME DTU"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Notes1" />
+        <activity
+            android:name=".FirstSem2"
+            android:label="Group-B" />
+        <activity android:name=".Notes2" />
+        <activity android:name=".Ques1" />
+        <activity android:name=".Ques2" />
+        <activity android:name=".Books2" />
+        <activity android:name=".Books1" />
+        <activity android:name=".Books1Physics" />
+        <activity android:name=".Notes1Maths" />
+        <activity android:name=".Notes2chem" />
+        <activity android:name=".Notes2bme" />
+        <activity android:name=".Notes2hu" />
+        <activity android:name=".Notes1Envi" />
+        <activity android:name=".Notes1Electrical" />
+        <activity android:name=".Notes1Physics" />
+        <activity android:name=".Notes1Comp" />
+        <activity android:name=".Notes1ED" />
+        <activity android:name=".Books1Maths" />
+        <activity android:name=".Books1Electrical" />
+        <activity android:name=".Books1Envi" />
+        <activity android:name=".Books1ED" />
+        <activity android:name=".Books1Comp" />
+        <activity android:name=".Books2hu" />
+        <activity android:name=".Books2bme" />
+        <activity android:name=".Books2chem" />
+        <activity android:name=".Papers1Comp" />
+        <activity android:name=".Papers1ED" />
+        <activity android:name=".Papers1EE" />
+        <activity android:name=".Papers1Ene" />
+        <activity android:name=".Papers1Maths" />
+        <activity android:name=".Papers1Physics" />
+        <activity android:name=".Papers2Physics" />
+        <activity android:name=".Papers2Maths" />
+        <activity android:name=".Papers2Chem" />
+        <activity android:name=".Papers2hu" />
+        <activity android:name=".Papers2bme" />
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/apikey" />
+
+
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+
+
+
+        <activity
+            android:name=".SecondSem"
+            android:label="Third Sem" />
+        <activity
+            android:name=".ThirdSem"
+            android:label="Fourth Sem" />
+        <activity android:name=".Papers4coe" />
+        <activity android:name=".Papers3coe" />
+        <activity android:name=".Papers3eee" />
+        <activity android:name=".Papers4eee" />
+        <activity android:name=".Papers3ece" />
+        <activity android:name=".Papers4ece" />
+        <activity android:name=".Papers3ene" />
+        <activity android:name=".Papers4ene" />
+        <activity android:name=".Papers4bt" />
+        <activity android:name=".Papers3bt" />
+        <activity android:name=".Papers3ce" />
+        <activity android:name=".Papers4ce"></activity>
+        <activity android:name=".Papers4mce" />
+        <activity android:name=".Papers3mce" />
+        <activity android:name=".Papers3pe" />
+        <activity android:name=".Papers4pe" />
+        <activity
+            android:name=".Cont1"
+            android:label="Teacher Contacts" />
+        <activity android:name=".Papers4me"></activity>
+        <activity android:name=".Papers3pct" />
+        <activity android:name=".Papers4pct" />
+        <activity android:name=".Papers3se" />
+        <activity android:name=".Papers3mam" />
+        <activity android:name=".Papers3ep" />
+        <activity android:name=".Papers4ep"></activity>
+        <activity android:name=".Papers3me" />
+        <activity android:name=".Papers4mam" />
+        <activity
+            android:name=".NotesAllYears"
+            android:label="Notes II Year" />
+        <activity
+            android:name=".BT"
+            android:label="III Sem BT" />
+        <activity
+            android:name=".BT4"
+            android:label="IV Sem BT" />
+        <activity android:name=".LabLocation" />
+        <activity
+            android:name=".COE"
+            android:label="III Sem COE/IT" />
+        <activity
+            android:name=".COE4"
+            android:label="IV Sem COE/IT" />
+        <activity
+            android:name=".CE4"
+            android:label="IV Sem CE"></activity>
+        <activity
+            android:name=".CE"
+            android:label="III Sem CE" />
+        <activity
+            android:name=".ECE"
+            android:label="III Sem ECE" />
+        <activity
+            android:name=".ECE4"
+            android:label="IV Sem ECE" />
+        <activity
+            android:name=".EEE"
+            android:label="III Sem EEE" />
+        <activity
+            android:name=".EEE4"
+            android:label="IV Sem EEE" />
+        <activity
+            android:name=".MCE"
+            android:label="III Sem MCE" />
+        <activity
+            android:name=".MCE4"
+            android:label="IV Sem MCE" />
+        <activity
+            android:name=".EP"
+            android:label="III Sem EP" />
+        <activity
+            android:name=".EP4"
+            android:label="IV Sem EP" />
+        <activity
+            android:name=".ENE"
+            android:label="III Sem ENE" />
+        <activity
+            android:name=".ENE4"
+            android:label="IV Sem ENE" />
+        <activity
+            android:name=".PIE"
+            android:label="III Sem PIE" />
+        <activity
+            android:name=".PIE4"
+            android:label="IV Sem PIE" />
+        <activity
+            android:name=".PSCT"
+            android:label="III Sem PCT" />
+        <activity
+            android:name=".PSCT4"
+            android:label="IV Sem PCT" />
+        <activity
+            android:name=".EE"
+            android:label="III Sem EE" />
+        <activity
+            android:name=".EE4"
+            android:label="IV Sem EE" />
+        <activity
+            android:name=".SE"
+            android:label="III Sem SE" />
+        <activity
+            android:name=".SE4"
+            android:label="IV Sem SE" />
+        <activity
+            android:name=".ME"
+            android:label="III Sem ME" />
+        <activity
+            android:name=".MAM4"
+            android:label="IV Sem MAM" />
+        <activity
+            android:name=".MAM"
+            android:label="III Sem MAM" />
+        <activity
+            android:name=".ME4"
+            android:label="IV Sem ME" />
+        <activity
+            android:name=".Cont3coe"
+            android:label="Teacher Contacts" />
+        <activity android:name=".Eco3papers" />
+        <activity android:name=".Fom4papers" />
+        <activity android:name=".Developers"
+            android:label="Developer Info"></activity>
+        <activity android:name=".Books3bt"></activity>
+        <activity android:name=".Books3ce"></activity>
+        <activity android:name=".Books3coe"></activity>
+        <activity android:name=".Books3ece"></activity>
+        <activity android:name=".Books3ee"></activity>
+        <activity android:name=".Books3eee"></activity>
+        <activity android:name=".Books3ep"></activity>
+        <activity android:name=".Books3ene"></activity>
+        <activity android:name=".Books3me"></activity>
+        <activity android:name=".Books3mce"></activity>
+        <activity android:name=".Books3se"></activity>
+        <activity android:name=".Books3pe"></activity>
+        <activity android:name=".Books3mam"></activity>
+        <activity android:name=".Books3pct"></activity>
+        <activity android:name=".Books4bt" />
+        <activity android:name=".Books4ce" />
+        <activity android:name=".Books4coe"></activity>
+        <activity android:name=".Books4ece" />
+        <activity android:name=".Books4ee" />
+        <activity android:name=".Books4eee" />
+        <activity android:name=".Books4ep" />
+        <activity android:name=".Books4ene" />
+        <activity android:name=".Books4me" />
+        <activity android:name=".Books4mce" />
+        <activity android:name=".Books4se" />
+        <activity android:name=".Books4pe" />
+        <activity android:name=".Books4mam" />
+        <activity android:name=".Books4pct" />
+        <activity android:name=".Usage"
+            android:label="HOW TO USE">
+
+        </activity>
+    </application>
+
+</manifest>
